@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Weld Inspection API Admin.props" />
+</Project>

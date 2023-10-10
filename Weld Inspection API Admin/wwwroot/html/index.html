@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\admin-panel.css" asp-append-version="true" />
+    <title>Панель администратора</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><span>Weld</span><span>Tracker</span></div>
+        <div class="account">
+            <span>Панель администратора</span>
+            <a href="">Выход</a>
+        </div>
+    </header>
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <div>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">2</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">3</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">4</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">5</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">6</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+            <form style="display: none;">
+                <div>
+                    <label for="name">7</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                </div>
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="birthday">День рождения:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="experience">Стаж:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100">
+                </div>
+                <div>
+                    <label for="error_rate">Процент ошибок:</label>
+                    <input type="number" id="error_rate" name="error_rate" min="0" max="100">
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+
+
+        </div>
+
+    </div>
+    <main>
+        <div class="select-block">
+            <div class="heading">
+                <span>Таблицы</span>
+            </div>
+            <a href="" onclick="return false;" class="active">
+                <div class="selected-type ">
+                    <span>Дефектоскописты</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Дефекты</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Методы</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Проверяющие</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Результаты</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Сварщики</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Устройства</span>
+                </div>
+            </a>
+            <div class="space"></div>
+            <div class="heading">
+                <span>Журналы</span>
+            </div>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Администраторы</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Дефектоскописты</span>
+                </div>
+            </a>
+            <a href="" onclick="return false;">
+                <div class="selected-type">
+                    <span>Проверяющие</span>
+                </div>
+            </a>
+        </div>
+        <div class="information-block">
+            <div class="editing-block">
+                <div class="add-button editing-button" id="add-button">
+                    Добавить
+                </div>
+                <div class="delete-button editing-button">
+                    <span>Удалить</span>
+                </div>
+                <div class="edit-button editing-button" id="edit-button">
+                    <span>Изменить</span>
+                </div>
+            </div>
+            <div class="data-block" style="display: block;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Фамилия</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data" id="data1"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+            <div class="data-block" style="display: none;">
+                <div class=" name-block">
+                    <span>ID</span>
+                    <span>Имя</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
+                    <span>Телефон</span>
+                    <span>Почта</span>
+                    <span>Д/Р</span>
+                    <span>Стаж</span>
+                    <span>П/О</span>
+                </div>
+                <div class="data"></div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/modal-add.js"></script>
+    <script src="../js/modal-edit.js"></script>
+    <script src="../js/modal-form.js" type="text/javascript"></script>
+    <script src="../js/get-data.js"></script>
+    <script>
+        GetData(0);
+    </script>
+    <script src="../js/block-colision.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

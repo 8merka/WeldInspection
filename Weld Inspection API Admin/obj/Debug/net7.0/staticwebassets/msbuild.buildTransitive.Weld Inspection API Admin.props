@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Weld Inspection API Admin.props" />
+</Project>

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\css\\admin-panel.css",
+      "PackagePath": "staticwebassets\\css\\admin-panel.css"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\html\\index.html.__projection.g.css",
+      "PackagePath": "staticwebassets\\html\\index.html.__projection.g.css"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\html\\index.html.__projection.g.js",
+      "PackagePath": "staticwebassets\\html\\index.html.__projection.g.js"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\modal-add.js",
+      "PackagePath": "staticwebassets\\js\\modal-add.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Weld Inspection API Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Weld Inspection API Admin.props",
+      "PackagePath": "build\\Weld Inspection API Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Weld Inspection API Admin.props",
+      "PackagePath": "buildMultiTargeting\\Weld Inspection API Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Weld Inspection API Admin.props",
+      "PackagePath": "buildTransitive\\Weld Inspection API Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
