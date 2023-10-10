@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Weld_Inspection_DAL_Admin.Models.Defects" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAICAAAAAAAAIAAAAAAAAABAAAAAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Defects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.FinalInspection">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\FinalInspection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.InspectionEquipment" Collapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InspectionEquipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.InspectionMethods" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAgAAAAAAAAAAQAAQAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InspectionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.InspectionResult" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAKAAAAAEAAIAAEAAAAAAAAAACEAA=</HashCode>
+      <FileName>Models\InspectionResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.Inspectors" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAACAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Inspectors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Models.Welds" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAgAAIAAAAABAAEAAAAAAAAAAAAAo=</HashCode>
+      <FileName>Models\Welds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Data.AppDbContext" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIQAAAAAAAEAAAAAAEIAAAAEAAAAAAAEAIAA=</HashCode>
+      <FileName>Data\AppDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weld_Inspection_DAL_Admin.Data.AppDbContextFactory" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\AppDbContextFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.deps.json
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.pdb
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.csproj.AssemblyReference.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.AssemblyInfoInputs.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.AssemblyInfo.cs
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.csproj.CoreCompileInputs.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\refint\Weld Inspection DAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.pdb
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\ref\Weld Inspection DAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.runtimeconfig.json
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection DAL Admin\obj\Debug\net7.0\Weld Inspection DAL Admin.genruntimeconfig.cache
