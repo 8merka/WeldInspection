@@ -1,0 +1,15 @@
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\bin\Debug\net7.0\Weld Inspection BAL Admin.deps.json
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\bin\Debug\net7.0\Weld Inspection BAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\bin\Debug\net7.0\Weld Inspection BAL Admin.pdb
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\bin\Debug\net7.0\Weld Inspection DAL Admin.pdb
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.csproj.AssemblyReference.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.AssemblyInfoInputs.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.AssemblyInfo.cs
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.csproj.CoreCompileInputs.cache
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.csproj.CopyComplete
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\refint\Weld Inspection BAL Admin.dll
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\Weld Inspection BAL Admin.pdb
+C:\Users\8merka\Desktop\Weld Inspection\Weld Inspection API Admin\Weld Inspection BAL Admin\obj\Debug\net7.0\ref\Weld Inspection BAL Admin.dll
