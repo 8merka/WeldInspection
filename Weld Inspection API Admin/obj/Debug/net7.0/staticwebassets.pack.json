@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\html\\index.html.__projection.g.js"
     },
     {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\add-inspectors.js",
+      "PackagePath": "staticwebassets\\js\\add-inspectors.js"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\block-colision.js",
+      "PackagePath": "staticwebassets\\js\\block-colision.js"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\get-data.js",
+      "PackagePath": "staticwebassets\\js\\get-data.js"
+    },
+    {
       "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\modal-add.js",
       "PackagePath": "staticwebassets\\js\\modal-add.js"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\modal-edit.js",
+      "PackagePath": "staticwebassets\\js\\modal-edit.js"
+    },
+    {
+      "Id": "C:\\Users\\8merka\\Desktop\\Weld Inspection\\Weld Inspection API Admin\\Weld Inspection API Admin\\wwwroot\\js\\modal-form.js",
+      "PackagePath": "staticwebassets\\js\\modal-form.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Weld Inspection API Admin.Microsoft.AspNetCore.StaticWebAssets.props",

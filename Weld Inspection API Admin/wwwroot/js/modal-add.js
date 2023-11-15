@@ -8,7 +8,7 @@ var modal = document.getElementById("myModal");
         }
 
         span.onclick = function () {
-            modal.style.display = "none";
+            modals.style.display = "none";
         }
 
         window.onclick = function (event) {

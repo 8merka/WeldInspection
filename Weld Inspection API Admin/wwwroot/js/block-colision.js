@@ -10,6 +10,7 @@ for (var i = 0; i < links.length; i++) {
         for (var j = 0; j < blocks.length; j++) {
             if (j == index) {
                 blocks[j].style.display = 'inline';
+                blocks[j].querySelector('.data').innerHTML = '';
                 GetData(index);
             } else {
                 blocks[j].style.display = 'none';

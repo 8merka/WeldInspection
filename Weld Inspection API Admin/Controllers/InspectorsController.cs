@@ -32,7 +32,7 @@ namespace Weld_Inspection_API_Admin.Controllers
             return Ok("Data was successfully added into table Inspectors");
         }
 
-        [HttpPut("UpdateInspector")]
+        [HttpPut("UpdateInspector/{id}")]
         public IActionResult Update(int id, [FromBody] Inspectors inspectors)
         {
             Inspectors updatedInspector = _inspectorsService.Update(id, inspectors);
@@ -40,21 +40,20 @@ namespace Weld_Inspection_API_Admin.Controllers
             {
                 return NotFound();
             }
-            return Ok("Data was successfully updated in table Inspectors");
+            return Ok($"Data with id {id} was successfully updated in table Inspectors");
         }
 
-        [HttpDelete("DeleteInspector")]
+        [HttpDelete("DeleteInspector/{id}")]
         public IActionResult Delete(int id)
         {
+            Console.WriteLine("В метод пришёл id: " + id);
             Inspectors deletedInspector = _inspectorsService.Delete(id);
             if (deletedInspector == null)
             {
                 return NotFound();
             }
-            return Ok("Data was successfully removed from table Inspectors");
+            return Ok($"Data with id {id} was successfully removed from table Inspectors");
 
         }
-
-
     }
 }

@@ -20,10 +20,13 @@
 
         <div class="modal-content">
             <span class="close">&times;</span>
-            <form>
+            <form id="form1">
                 <div>
                     <label for="name">Имя:</label>
                     <input type="text" id="name" name="name" required>
+                </div> <div>
+                    <label for="lastName">Фамилия:</label>
+                    <input type="text" id="lastName" name="lastName" required>
                 </div>
                 <div>
                     <label for="login">Логин:</label>
@@ -53,7 +56,7 @@
                     <label for="error_rate">Процент ошибок:</label>
                     <input type="number" id="error_rate" name="error_rate" min="0" max="100">
                 </div>
-                <button type="submit">Отправить</button>
+                <button type="submit" id="add-button-1">Отправить</button>
             </form>
             <form style="display: none;">
                 <div>
@@ -347,6 +350,8 @@
                     <span>ID</span>
                     <span>Имя</span>
                     <span>Фамилия</span>
+                    <span>Логин</span>
+                    <span>Пароль</span>
                     <span>Телефон</span>
                     <span>Почта</span>
                     <span>Д/Р</span>
@@ -487,12 +492,54 @@
     <script src="../js/modal-edit.js"></script>
     <script src="../js/modal-form.js" type="text/javascript"></script>
     <script src="../js/get-data.js"></script>
+
     <script>
         GetData(0);
+
     </script>
     <script src="../js/block-colision.js" type="text/javascript"></script>
+    <script src="../js/add-inspectors.js"></script>
 
 
+    <script>
+        var block = document.querySelectorAll('.information-block .data-block')[0];
+
+        document.querySelector('.delete-button').addEventListener('click', function () {
+            var selectedData = document.querySelectorAll('.selected-data');
+            selectedData.forEach(function (data) {
+                var id = Number(data.querySelector('div').innerText);
+                console.log(id);
+                fetch('/api/Inspectors/DeleteInspector/' + id, {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+
+                    body: JSON.stringify({id : id }),
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Ошибка HTTP: ' + response.status);
+                        }
+                        console.log("я тут был, запрос отправил");
+                        return response;
+                    })
+                    .catch(function (error) {
+                        console.log('Произошла ошибка: ' + error.message);
+                    });
+                console.log(id);
+            });
+            block.querySelector('.data').innerHTML = '';
+            setTimeout(function () { GetData(0); }, 200);
+        });
+    </script>
+    <script>
+        document.querySelector('.data').addEventListener('click', function (event) {
+            if (event.target.classList.contains('json-information')) {
+                event.target.classList.toggle('selected-data');
+            }
+        });
+    </script>
 </body>
 
 </html>

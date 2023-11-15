@@ -14,8 +14,7 @@ function GetData(index)
     }
             fetch(url)
             .then(function (response) {
-                responseClone = response.clone();
-                console.log(responseClone); 
+                responseClone = response.clone(); 
                 return response.json();
             })
             .then(function (data) {
@@ -42,6 +41,8 @@ function GetData(index)
                     for (const key in obj) {
                         const value = obj[key];
                         const item = document.createElement('div');
+                        item.style.width = "calc(100% / " + blockSize + ")";
+                        item.classList.add('json-information-item');
                         item.textContent = value;
                         block.appendChild(item);
                     }
